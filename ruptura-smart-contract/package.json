@@ -1,0 +1,89 @@
+{
+  "name": "ruptura-smart-contract",
+  "version": "1.0.0",
+  "description": "RUPTURA Simple Smart Contract for Earthquake Monitoring and Emergency Response",
+  "main": "deploy.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run deploy.js",
+    "deploy:localhost": "hardhat run deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run deploy.js --network sepolia",
+    "deploy:goerli": "hardhat run deploy.js --network goerli",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "demo": "node demo-offline.js",
+    "demo:offline": "node demo-offline.js full",
+    "demo:scenarios": "node demo-offline.js scenarios",
+    "demo:algorithm": "node demo-offline.js algorithm",
+    "demo:benefits": "node demo-offline.js benefits",
+    "demo:blockchain": "node example-usage.js full-demo",
+    "verify": "hardhat verify",
+    "clean": "hardhat clean",
+    "size": "hardhat size-contracts"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contract",
+    "solidity",
+    "earthquake",
+    "emergency-response",
+    "IoT",
+    "blockchain",
+    "RUPTURA",
+    "seismic-monitoring",
+    "istanbul-university"
+  ],
+  "author": {
+    "name": "Yusuf Örnek",
+    "email": "yusufornek@ogr.iu.edu.tr",
+    "organization": "İstanbul Üniversitesi",
+    "department": "Yönetim Bilişim Sistemleri"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/itu-ruptura/smart-contracts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itu-ruptura/smart-contracts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itu-ruptura/smart-contracts/issues"
+  },
+  "dependencies": {
+    "ethers": "^6.8.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.1.1",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "@types/chai": "^4.3.6",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.8",
+    "hardhat": "^2.17.2",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.4",
+    "typechain": "^8.3.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "contracts/",
+    "scripts/",
+    "deploy.js",
+    "example-usage.js",
+    "README.md",
+    "hardhat.config.js"
+  ],
+  "directories": {
+    "test": "test"
+  }
+}
