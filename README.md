@@ -166,7 +166,7 @@ ls contracts/
 - **Web Interface Response**: < 500ms
 - **Smart Contract Gas**: Optimized
 
-## 🏥 Emergency Scenarios
+## 🏥 Emergency Scenarios (These scenarios do not reflect the current status of the project. They are potential scenarios that may emerge with future updates.)
 
 ### Scenario 1: Moderate Earthquake (JMA 4-5)
 1. Sensor data is received
@@ -199,14 +199,6 @@ ls contracts/
 - [ ] IoT sensor network expansion
 - [ ] Machine learning optimization
 
-## 📚 Academic Resources
-
-Academic documents prepared within the project scope:
-- System architecture diagrams
-- Algorithm flowcharts
-- Performance analysis reports
-- LaTeX documents
-- Mermaid charts
 
 ## 🤝 Contributing
 
