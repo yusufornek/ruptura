@@ -1,4 +1,7 @@
-# 🌍 RUPTURA - Real-time Urban Post-earthquake Terrain and Urban Risk Assessment
+# 🌍 RUPTURA - A Decentralized System for Damage Detection and
+Emergency Response with Helium-Based IoT Sensors
+in Case of Internet and Cellular Network Outages
+During Earthquakes
 
 <div align="center">
 
