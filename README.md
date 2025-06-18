@@ -39,10 +39,7 @@ RUPTURA Ecosystem
 │   ├── Damage Assessment
 │   ├── Emergency Response
 │   └── Core Coordination
-└── Academic Resources/        # Academic Documents
-    ├── System Diagrams
-    ├── Algorithm Flowcharts
-    └── Research Documentation
+
 ```
 
 ## 🚀 Project Components
